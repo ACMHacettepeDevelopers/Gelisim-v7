@@ -1,4 +1,5 @@
 
+
 /*=======================================
 Template Design By MarkUps	
 Author URI : http://www.markups.io/
@@ -6,9 +7,9 @@ Author URI : http://www.markups.io/
 
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #e35810;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2f282b, #e35810);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2f282b, #e35810); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #c762cb;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c762cb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c762cb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -34,9 +35,8 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
-	color: #e35810;
+	color: #c762cb;
 }
-
 
 .mu-speakers-slider .slick-next,
 .mu-speakers-slider .slick-prev,
@@ -53,36 +53,40 @@ Author URI : http://www.markups.io/
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	background-color: #e35810;
+	background-color: #c762cb;
 }
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #e35810;
-	color: #e35810;
+	border: 1px solid #c762cb;
+	color: #c762cb;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-	border: 1px solid #e35810;
+	border: 1px solid #c762cb;    
 } 
 
 .mu-send-msg-btn,
-.mu-send-msg-btn:focus,
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-	border: 1px solid #e35810;
-	background-color: #e35810;
+	border: 1px solid #c762cb;
+	background-color: #c762cb;
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border-top-color: #e35810;
+	border-top-color: #c762cb;
 
 }
 
 .mu-reg-submit-btn:hover,
 .mu-reg-submit-btn:focus {
-	background-color: #e35810;
-	border: 2px solid #e35810;
+	background-color: #c762cb;
+	border: 2px solid #c762cb;
 }
+
+
+
+
+
