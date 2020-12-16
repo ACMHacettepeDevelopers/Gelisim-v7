@@ -135,7 +135,6 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
 }
 
 address {
@@ -221,7 +220,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	background-image: url("./assets/images/asd.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -234,7 +233,7 @@ button:focus {
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.94;
+	opacity: 0.65;
 	width: 100%;
 }
 
