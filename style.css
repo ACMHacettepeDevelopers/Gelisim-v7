@@ -239,20 +239,36 @@ button:focus {
 }
 
 .mu-logo-area {
-	display: inline;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	float: left;
 	text-align: center;
 	width: 100%;
 }
-
+.mu-logo-area :hover{
+	opacity: 1;
+}
 .mu-logo {
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	font-weight: 600;
-	background: #fff;
-	padding: 5px 20px;
 	margin-bottom: 30px;
+	height: 300px;
+	size: auto;
+	background: none;
+	padding: unset;
+}
+.mu-logo :hover{
+	transform-style: preserve-3d;
+	transform: rotateY( 45deg );
+}
+.mu-logo img{
+	opacity: 80%;
+	display: block;
+	transition: transform 1.50s;
 }
 
 
@@ -372,9 +388,12 @@ button:focus {
 }
 
 #mu-hero .navbar-default .navbar-brand {
-	padding: 15px 15px;
+	padding-top: 5px;
 	font-size: 28px;
 	line-height: 20px;
+}
+#mu-hero .navbar-default .navbar-brand a img{
+	opacity: 90%;
 }
 
 .mu-navbar .mu-menu li a {
