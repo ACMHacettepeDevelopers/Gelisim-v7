@@ -11,6 +11,12 @@ Author URI : http://www.markups.io/
     background: linear-gradient(to right, #e35810, #2f282b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.mu-sponsors-overlay{
+	background-color: #5E5358;/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E16829, #2f282b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E16829, #2f282b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 .mu-primary-btn:hover,
 .mu-primary-btn:focus,

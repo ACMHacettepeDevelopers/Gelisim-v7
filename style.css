@@ -220,7 +220,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("./assets/images/asd.jpg");
+	background-image: url("./assets/images/v5-arkaplan-eski.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -252,7 +252,8 @@ button:focus {
 .mu-logo {
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
-	display: inline-block;
+	display: flex;
+	align-items: center;
 	font-weight: 600;
 	margin-bottom: 30px;
 	height: 300px;
@@ -385,8 +386,18 @@ button:focus {
 .mu-nav-show {
 	top: 0px;
 }
+.right-border{
+	padding-right: 10px;
+	margin-right: 5px;
+	border-right: solid 1px #7712b6;
+}
+
 
 #mu-hero .navbar-default .navbar-brand {
+	margin-left: 30px;
+	display: flex;
+	border-radius: 3px;
+	opacity: 0.95;
 	padding-top: 5px;
 	font-size: 28px;
 	line-height: 20px;
@@ -394,7 +405,6 @@ button:focus {
 #mu-hero .navbar-default .navbar-brand a img{
 	opacity: 90%;
 }
-
 .mu-navbar .mu-menu li a {
 	color: #333;
 	-webkit-transition: all 0.5s;
@@ -402,11 +412,13 @@ button:focus {
 	transition: all 0.5s;
 }
 
+
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover {
 	color: #fff;
 }
+
 
 
 
@@ -466,7 +478,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
+	background-image: url("assets/images/v5-arkaplan-eski2.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -479,7 +491,7 @@ button:focus {
 .mu-video-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.85;
+	opacity: 0.65;
 	width: 100%;
 }
 
@@ -1074,34 +1086,69 @@ button:focus {
 /* SPONSORS */
 /*--------------------*/
 
+
+
 #mu-sponsors {
-	background-color: #fff;
 	display: inline;
+	background-image: url("assets/images/Sponsorluk.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 	float: left;
 	width: 100%;
+}
+.mu-sponsors-overlay {
+	display: inline;
+	float: left;
+	opacity: 0.97;
+	width: 100%;
+}
+.sponsor-header{
+	font-size: 7vw;
+	opacity: 0.50;
+	color: #eee;
+	font-weight: 900;
+	margin-bottom: 15px;
+	letter-spacing: 4px;
 }
 
 .mu-sponsors-area {
 	display: inline;
+	opacity: 1;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
 }
 
 .mu-sponsors-content {
+	position: relative;
+	opacity: 1;
 	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
-
+.black{
+	background-color: black;
+}
 .mu-sponsors-single {
-	background: #eee;
-	display: inline;
+	position: relative;
+	display: flex;
+	align-items: center;
 	float: left;
+	border-radius: 5px;
+	height: 270px;
 	margin-top: 10px;
 	margin-bottom: 15px;
+}
+.silver-sponsor{
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
+	border-radius: 20px;
+
 }
 
 
@@ -1396,8 +1443,7 @@ button:focus {
 		
 }
 
-@media (max-width: 991px) {	
-
+@media (max-width: 991px) {
 	.mu-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
@@ -1522,6 +1568,7 @@ button:focus {
 
 	.mu-logo img {
 		width: 150px;
+		height: 200px;
 	}
 
 	
